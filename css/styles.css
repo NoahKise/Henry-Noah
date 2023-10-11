@@ -21,8 +21,10 @@ body {
     display: inline;
 }
 
-.header img {
+.shows img {
     box-sizing: border-box;
+    position: relative;
+    top: 13px;
 }
 
 .sidebar {
