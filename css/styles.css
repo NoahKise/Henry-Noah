@@ -1,6 +1,6 @@
 body {
     background-color: grey;
-    background-image: url("/img/stars.gif");
+    background-image: url("../img/stars.gif");
     box-sizing: border-box;
     padding: 0;
     margin: 0;    
@@ -10,7 +10,7 @@ body {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 64px;
-    background-image: url("/img/flames.gif");
+    background-image: url("../img/flames.gif");
 }
 
 h1 {
