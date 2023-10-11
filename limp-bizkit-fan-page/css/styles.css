@@ -1,0 +1,37 @@
+body {
+    background-color: grey;    
+}
+
+.header {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 64px;
+}
+
+.important {
+    background-color: black;
+    color: red;
+    font-style: italic;
+}
+
+.sidebar {
+    float: left;
+    width: 30vw;
+    font-size: 36px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.mysterious {
+    font-style: italic;
+    opacity: 50%;
+}
+
+.images {
+    float: left;
+    width: 30vw;
+}
+
+img {
+    width: inherit;
+}
