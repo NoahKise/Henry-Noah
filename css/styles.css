@@ -9,16 +9,19 @@ body {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 64px;
+    background-image: url("/img/flames.gif");
+}
+
+h1 {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 20px 0 80px 0;
 }
 
 .important {
     background-color: black;
     color: red;
     font-style: italic;
-}
-
-.header h1 {
-    display: inline;
 }
 
 .shows img {
@@ -47,6 +50,10 @@ body {
     list-style-type: "\1F44D";
 }
 
+.shows li {
+    color: purple;
+}
+
 .uhoh {
     list-style-type: "\1F44E";
 }
@@ -62,6 +69,13 @@ body {
     padding: 0;
     box-sizing: border-box;
     margin-left: 1vw;
+    
+}
+
+.images img {
+    border-radius: 10%;
+    border: 3px solid red;
+    margin: 0 0 2vw 0;
 }
 
 .about {
@@ -83,4 +97,10 @@ body {
 
 img {
     max-width: 100%;
+}
+
+.friday {
+    display: block;
+    position: sticky;
+    bottom: 0px;
 }
