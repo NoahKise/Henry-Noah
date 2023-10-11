@@ -1,5 +1,8 @@
 body {
-    background-color: grey;    
+    background-color: grey;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;    
 }
 
 .header {
@@ -16,10 +19,26 @@ body {
 
 .sidebar {
     float: left;
-    width: 30vw;
+    width: 32vw;
     font-size: 36px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-sizing: border-box;
+    border: 3px solid red;
+    padding: 5px;
+    margin-left: 1vw;
+    background-color: bisque;
+    text-align: center;
 
+}
+
+.shows ul {
+    width: 90%;
+    margin: 0 auto;
+    list-style-type: "\1F44D";
+}
+
+.uhoh {
+    list-style-type: "\1F44E";
 }
 
 .mysterious {
@@ -29,9 +48,18 @@ body {
 
 .images {
     float: left;
-    width: 30vw;
+    width: 32vw;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 1vw;
+}
+
+.about {
+    float: left;
+    box-sizing: border-box;
+    width: 31vw;
+    margin-left: 1vw;
 }
 
 img {
-    width: inherit;
-}
+    max-width: 100%;
