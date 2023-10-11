@@ -1,0 +1,19 @@
+h2.intro {
+    font-weight: bold;
+    color: hotpink;
+}
+
+p.intro {
+    font-style: italic;
+}
+
+img.intro {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title {
+    font-size: 64px;
+}
